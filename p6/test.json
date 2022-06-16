@@ -1,0 +1,12 @@
+{
+  "score": 75,
+  "errors": [],
+  "missing": [
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "summary": "Result: 15 of 20 passed, for an estimated score of 75% (prior to grader deductions)."
+}

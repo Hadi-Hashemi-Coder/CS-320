@@ -1,0 +1,53 @@
+{
+  "score": 90.0,
+  "tests": [
+    {
+      "test": "has_pages",
+      "points": 10,
+      "possible": 10
+    },
+    {
+      "test": "has_links",
+      "points": 6,
+      "possible": 6
+    },
+    {
+      "test": "browse",
+      "points": 20,
+      "possible": 20
+    },
+    {
+      "test": "email",
+      "points": 14,
+      "possible": 14
+    },
+    {
+      "test": "ab_test",
+      "points": 15,
+      "possible": 25,
+      "log": [
+        "========================================",
+        "TEST ab_test (25)",
+        "did not choose the best version",
+        "did not choose the best version",
+        "did not choose the best version",
+        "did not choose the best version",
+        "did not choose the best version",
+        ""
+      ]
+    },
+    {
+      "test": "robo_test",
+      "points": 5,
+      "possible": 5
+    },
+    {
+      "test": "dashboard_examples",
+      "points": 20,
+      "possible": 20
+    }
+  ],
+  "lint": [],
+  "date": "11/14/2021",
+  "latency": 1.6443908214569092
+}

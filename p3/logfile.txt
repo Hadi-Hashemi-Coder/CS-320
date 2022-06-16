@@ -1,0 +1,124 @@
+ * Serving Flask app 'application' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://10.182.0.2:5000/ (Press CTRL+C to quit)
+ * Serving Flask app 'application' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://10.182.0.2:5000/ (Press CTRL+C to quit)
+ * Serving Flask app 'application' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://10.182.0.2:5000/ (Press CTRL+C to quit)
+ * Serving Flask app 'application' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "application.py", line 141, in <module>
+    application.run("0.0.0.0", port)
+  File "/home/hashe/.local/lib/python3.8/site-packages/flask/app.py", line 920, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/home/hashe/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1010, in run_simple
+    inner()
+  File "/home/hashe/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 950, in inner
+    srv = make_server(
+  File "/home/hashe/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 782, in make_server
+    return ThreadedWSGIServer(
+  File "/home/hashe/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 688, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app 'application' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "application.py", line 141, in <module>
+    application.run("0.0.0.0", port)
+  File "/home/hashe/.local/lib/python3.8/site-packages/flask/app.py", line 920, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/home/hashe/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1010, in run_simple
+    inner()
+  File "/home/hashe/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 950, in inner
+    srv = make_server(
+  File "/home/hashe/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 782, in make_server
+    return ThreadedWSGIServer(
+  File "/home/hashe/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 688, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app 'application' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "application.py", line 141, in <module>
+    application.run("0.0.0.0", port)
+  File "/home/hashe/.local/lib/python3.8/site-packages/flask/app.py", line 920, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/home/hashe/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1010, in run_simple
+    inner()
+  File "/home/hashe/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 950, in inner
+    srv = make_server(
+  File "/home/hashe/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 782, in make_server
+    return ThreadedWSGIServer(
+  File "/home/hashe/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 688, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app 'application' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "application.py", line 141, in <module>
+    application.run("0.0.0.0", port)
+  File "/home/hashe/.local/lib/python3.8/site-packages/flask/app.py", line 920, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/home/hashe/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1010, in run_simple
+    inner()
+  File "/home/hashe/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 950, in inner
+    srv = make_server(
+  File "/home/hashe/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 782, in make_server
+    return ThreadedWSGIServer(
+  File "/home/hashe/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 688, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use

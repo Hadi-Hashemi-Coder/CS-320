@@ -1,0 +1,56 @@
+{
+  "score": 75.0,
+  "tests": [
+    {
+      "test": "ip_check",
+      "points": 25,
+      "possible": 25
+    },
+    {
+      "test": "region",
+      "points": 25,
+      "possible": 25
+    },
+    {
+      "test": "zipcode",
+      "points": 25.0,
+      "possible": 25
+    },
+    {
+      "test": "geo",
+      "points": 0,
+      "possible": 25,
+      "log": [
+        "========================================",
+        "TEST geo (25 points possible)",
+        "RUN: python3 main.py geo 3035 3035.svg",
+        "RUN: python3 main.py geo 4036 4036.svg",
+        "RUN: python3 main.py geo 4144 4144.svg",
+        "RUN: python3 main.py geo 4248 4248.svg",
+        "Traceback (most recent call last):",
+        "  File \"tester.py\", line 106, in run_all_tests",
+        "    points = t.fn()",
+        "  File \"tester.py\", line 465, in geo",
+        "    run(\"geo\", proj, out)",
+        "  File \"tester.py\", line 255, in run",
+        "    output = subprocess.check_output(",
+        "  File \"/usr/lib/python3.8/subprocess.py\", line 415, in check_output",
+        "    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,",
+        "  File \"/usr/lib/python3.8/subprocess.py\", line 495, in run",
+        "    stdout, stderr = process.communicate(input, timeout=timeout)",
+        "  File \"/usr/lib/python3.8/subprocess.py\", line 1028, in communicate",
+        "    stdout, stderr = self._communicate(input, endtime, timeout)",
+        "  File \"/usr/lib/python3.8/subprocess.py\", line 1869, in _communicate",
+        "    self._check_timeout(endtime, orig_timeout, stdout, stderr)",
+        "  File \"/usr/lib/python3.8/subprocess.py\", line 1072, in _check_timeout",
+        "    raise TimeoutExpired(",
+        "subprocess.TimeoutExpired: Command '['python3', 'main.py', 'geo', '4248', '4248.svg']' timed out after 30 seconds",
+        "",
+        ""
+      ]
+    }
+  ],
+  "lint": [],
+  "date": "11/27/2021",
+  "latency": 93.72589254379272
+}
